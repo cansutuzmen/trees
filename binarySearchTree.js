@@ -127,7 +127,6 @@ class BinarySearchTree {
         //if right child has a left child
         else{
           //find the right child's left most child first
-
           let leftmost = currentNode.right.left;
           let leftmostParent = currentNode.right;
           
@@ -154,8 +153,14 @@ class BinarySearchTree {
           }
         }
       }
+      
       return true;
     }
+    
     return false;
   }
 }
+
+
+
+
